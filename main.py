@@ -1,13 +1,7 @@
-
-
-
 #Whatsapp message automataion in just 2 lines of code!!!!!!!!!!
-import pywhatkit
-from test import number
+import pywhatkit      #Import Library
+from test import number   #from test file import number
 pywhatkit.sendwhatmsg(number,'Hello, Good morning',11,58) #minimum there should be 2 min gap
-# number,msg,hrs,min
+# format of sendwhatmsg (phone number,msg,hrs,min)
 
-# Output:
-# Since the screen is not visible I'm copy pasting the output
-In 37 seconds web.whatsapp.com will open and after 20 seconds message will be delivered
-
+#Whats web opens automatically and the message is send after 20 seconds.
